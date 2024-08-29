@@ -13,10 +13,11 @@ const root = document.getElementById('root');
 
 if (isEnvBrowser()) {
   // https://i.imgur.com/iPTAdYV.png - Night time img
-  root!.style.backgroundImage = 'url("https://i.imgur.com/3pzRj9n.png")';
-  root!.style.backgroundSize = 'cover';
-  root!.style.backgroundRepeat = 'no-repeat';
-  root!.style.backgroundPosition = 'center';
+  // root!.style.backgroundImage = 'url("https://i.imgur.com/3pzRj9n.png")';
+  // root!.style.backgroundSize = 'cover';
+  // root!.style.backgroundRepeat = 'no-repeat';
+  // root!.style.backgroundPosition = 'center';
+  root!.style.background = 'radial-gradient(90% 90% at 45% 45%, rgba(10, 15, 20, 0.9), rgba(15, 20, 25, 0.9))';
 }
 
 createRoot(root!).render(
